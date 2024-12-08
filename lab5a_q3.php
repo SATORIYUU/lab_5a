@@ -19,7 +19,7 @@
 </head>
 <body>
     <?php
-    // Fungsi untuk menghasilkan tabel perkalian
+
     function multiplication($multiplier) {
         $results = [];
         for ($i = 1; $i <= 12; $i++) {
@@ -32,7 +32,7 @@
         return $results;
     }
 
-    // Memanggil fungsi dan menyimpan hasil
+
     $tableData = multiplication(2);
     ?>
 
